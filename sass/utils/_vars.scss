@@ -1,0 +1,27 @@
+/* primary text color grey #757575 */
+/* secondary text color black #212121 */
+/* white text color #fff */
+/* accent color #2196F3 */
+/* primary bg color  #fff */
+/* secondary bg color #F5F4FA */
+/* footer bg color #2F303A */
+/* stroke portfolio works #EEEEEE */
+/* stroke header #ECECEC */
+/* bg color hero #C4C4C4*/
+/* FILL colour #AFB1B8 */
+
+:root {
+    --primary-txt-col: #757575;
+    --secondary-txt-col: #212121;
+    --white-txt-col: #fff;
+    --accent-col: #2196f3;
+    --primary-bg-col: #fff;
+    --secondary-bg-col: #f5f4fa;
+    --footer-bg-col: #2f303a;
+    --gap: 30px;
+    --stroke-portfolio: #EEEEEE;
+    --stroke-header: #ECECEC;
+    --bg-color-hero: #C4C4C4;
+    --fill-colour: #AFB1B8;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}

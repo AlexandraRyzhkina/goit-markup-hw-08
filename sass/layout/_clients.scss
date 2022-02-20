@@ -1,0 +1,45 @@
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 6);
+
+    list-style: none;
+
+    &__card + &__card {
+        margin-left: 30px;
+    }
+
+}
+
+
+.client-list__link {
+    display: block;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--fill-colour);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+
+    position: relative;
+
+    fill: var(--fill-colour);
+
+    transition: border-color 250ms var(--cubic);
+
+    &:hover, &:focus{
+        fill: var(--accent-col);
+        border-color: var(--accent-col);
+    }
+}
+
+.icon-client {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: fill 250ms var(--cubic);
+}
+

@@ -1,0 +1,32 @@
+body {
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-txt-col);
+    background-color: var(--primary-bg-col);
+    letter-spacing: 0.03em;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
